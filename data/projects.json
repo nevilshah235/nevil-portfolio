@@ -1,0 +1,21 @@
+[
+  {
+    "id": "graphrag-explorer",
+    "title": "GraphRAG Explorer",
+    "description": "A tool that converts unstructured PDF data into a queryable Neo4j Knowledge Graph.",
+    "icon": "🚀",
+    "tags": ["Python", "Neo4j", "LangChain"],
+    "githubUrl": "https://github.com/nevilshah235",
+    "liveUrl": "#"
+  },
+  {
+    "id": "semantic-search",
+    "title": "Semantic Search Engine",
+    "description": "Vector-based retrieval system for high-dimensional technical documentation.",
+    "icon": "🔍",
+    "tags": ["ChromaDB", "FastAPI", "React"],
+    "githubUrl": "https://github.com/nevilshah235",
+    "liveUrl": "#"
+  }
+]
+

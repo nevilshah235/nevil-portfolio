@@ -1,0 +1,47 @@
+{
+  "central": {
+    "id": "python-ai",
+    "label": "Python / AI",
+    "color": "blue",
+    "connections": ["data", "noom", "langchain", "coward-ai", "avllm", "decipe"]
+  },
+  "nodes": [
+    {
+      "id": "data",
+      "label": "Data",
+      "color": "green",
+      "connections": ["python-ai", "noom"]
+    },
+    {
+      "id": "noom",
+      "label": "NooM",
+      "color": "green",
+      "connections": ["python-ai", "data"]
+    },
+    {
+      "id": "langchain",
+      "label": "LangChain",
+      "color": "blue",
+      "connections": ["python-ai"]
+    },
+    {
+      "id": "coward-ai",
+      "label": "Coward AI",
+      "color": "purple",
+      "connections": ["python-ai"]
+    },
+    {
+      "id": "avllm",
+      "label": "AVLLM",
+      "color": "orange",
+      "connections": ["python-ai", "decipe"]
+    },
+    {
+      "id": "decipe",
+      "label": "Decipe",
+      "color": "orange",
+      "connections": ["python-ai", "avllm"]
+    }
+  ]
+}
+
