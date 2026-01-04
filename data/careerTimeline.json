@@ -1,0 +1,58 @@
+{
+  "hubs": [
+    {
+      "id": "ai-research",
+      "label": "AI Research",
+      "position": { "x": 0, "y": 0 },
+      "color": "#8b5cf6",
+      "roles": [
+        {
+          "id": "avaamo",
+          "title": "Applied AI Engineer",
+          "company": "Avaamo",
+          "period": "2020 - Present",
+          "tools": ["Python", "LLMs", "RAG", "Neo4j"],
+          "description": "Building bridge-focused AI systems with Knowledge Graph LLM Orchestration"
+        }
+      ]
+    },
+    {
+      "id": "backend-architecture",
+      "label": "Backend Architecture",
+      "position": { "x": 200, "y": 150 },
+      "color": "#3b82f6",
+      "roles": [
+        {
+          "id": "scalable-systems",
+          "title": "Backend Systems",
+          "company": "Various",
+          "period": "2018 - Present",
+          "tools": ["FastAPI", "Python", "PostgreSQL", "Redis"],
+          "description": "Designing and implementing scalable backend systems"
+        }
+      ]
+    },
+    {
+      "id": "knowledge-graphs",
+      "label": "Knowledge Graphs",
+      "position": { "x": -200, "y": 150 },
+      "color": "#10b981",
+      "roles": [
+        {
+          "id": "graphrag",
+          "title": "GraphRAG Systems",
+          "company": "Projects",
+          "period": "2022 - Present",
+          "tools": ["Neo4j", "LangChain", "Python", "LLMs"],
+          "description": "Converting unstructured data into queryable knowledge graphs"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    { "from": "ai-research", "to": "knowledge-graphs", "strength": 0.8 },
+    { "from": "ai-research", "to": "backend-architecture", "strength": 0.6 },
+    { "from": "knowledge-graphs", "to": "backend-architecture", "strength": 0.5 }
+  ]
+}
+
